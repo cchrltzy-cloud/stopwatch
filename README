@@ -1,0 +1,14 @@
+# DIGITAL STOPWATCH
+
+## Project Description
+
+This website is a digital stopwatch application that allows users to measure elapsed time with precision down to hundredths of a second. The stopwatch displays time in hours, minutes, seconds, and milliseconds format. Users can start the timer, pause it at any point, and reset it back to zero. The application features a clean and modern user interface with large, easy-to-read time display and intuitive control buttons. The stopwatch continues to run accurately even when paused and resumed, maintaining the elapsed time. The application is built using HTML, CSS, and JavaScript and operates entirely on the client side without requiring any external services or APIs.
+
+## API Details Used
+
+This stopwatch application does not use any external APIs. All timing functionality is handled locally using JavaScript's Date object and setInterval methods. The application calculates elapsed time based on the system clock and does not require internet connectivity or API keys to function.
+
+## Instructions to Run the Project
+
+To run this project, you can simply open the index.html file directly in any modern web browser. Since the stopwatch does not use ES6 modules or require a web server, you can double-click the index.html file or right-click and select open with your preferred browser. Alternatively, if you are using XAMPP, place the Stopwatch folder inside the htdocs directory, start the XAMPP Apache server, then navigate to the appropriate URL based on your folder structure, for example http://localhost/Stopwatch/index.html or http://localhost/your-folder-name/Stopwatch/index.html depending on where you placed the folder. The stopwatch will load immediately and you can start using it right away. Click the Start button to begin timing, Pause to temporarily stop, and Reset to return to zero. No additional setup or configuration is required.
+
